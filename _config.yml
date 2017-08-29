@@ -1,0 +1,61 @@
+# SEO settings
+title: "10c8@dev"
+description: "Tales of code and insomnia."
+keywords: "blog, web, programming, 10c8"
+url: "http://10c8.github.io/"
+baseurl: null
+
+google_analytics: "UA-XXXXX-XX"
+repo: "http://github.com/heiswayi/thinkspace"
+disqus_shortname: "hnbloggithub"
+twitter_username: "HeiswayiNrird"
+comments: true
+
+# Build settings
+permalink: pretty
+markdown: kramdown
+highlighter: rouge
+
+kramdown:
+    input: GFM
+    syntax_highlighter: rouge
+
+source: ./
+destination: ./_site
+
+paginate: 5
+
+# Sass configuration
+sass:
+  sass_dir: assets/scss
+  style: compressed
+
+# Author settings
+author:
+  name     : "10c8"
+  job      : "hobbyist programmer"
+  bio      : "."
+  thumb    : /images/author.jpg
+  email    : dev10c8@gmail.com
+  url      : http://10c8.github.io
+  github   : http://github.com/10c8
+  twitter  : http://twitter.com/10c8
+  linkedin : http://linkedin.com/in/10c8
+
+# Social settings
+og_locale: "en_US"
+twitter_card: "summary_large_image"
+twitter_site: "@10c8"
+
+gems:
+  - bourbon
+  - jekyll-paginate
+
+# navbar pages
+navbar:
+  - slug : about
+    title: About
+  - slug : blog
+    title: Blog
+
+exclude: ["gulp", "node_modules", "bower", "bower_components", "config.rb", "src", "Gemfile", "Gemfile.lock", ".rvmrc", ".rbenv-version", "package.json", "gulpfile.js", "README.md", "Rakefile", "changelog.md"]
