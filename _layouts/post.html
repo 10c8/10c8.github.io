@@ -50,17 +50,23 @@ var disqus_config = function () {
         {% endif %}
       {% endfor %}
     {% endfor %}
-    {% assign posts = posted | split: "^" %}
-    {% for post in posts offset: 1 limit: 3 %}
-      {% assign p_info = post | split: "|" %}
+    {% if posted != "" %}
+      {% assign posts = posted | split: "^" %}
+      {% for post in posts offset: 1 limit: 3 %}
+        {% assign p_info = post | split: "|" %}
+        <li>
+          <h3>
+            <a href="{{ p_info[0] }}">
+              {{ p_info[1] }}
+              <small>{{ p_info[2] | date_to_string }}</small>
+            </a>
+          </h3>
+        </li>
+      {% endfor %}
+    {% else %}
       <li>
-        <h3>
-          <a href="{{ p_info[0] }}">
-            {{ p_info[1] }}
-            <small>{{ p_info[2] | date_to_string }}</small>
-          </a>
-        </h3>
+        <h3>None.</h3>
       </li>
-    {% endfor %}
+    {% endif %}
   </ul>
 </div>

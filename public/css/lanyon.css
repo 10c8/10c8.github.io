@@ -421,3 +421,10 @@ a.pagination-item:hover {
 .theme-base-0f .related-posts li a:hover {
   color: #8f5536;
 }
+
+
+/* Emoji */
+img.emoji {
+  display: inline-block;
+  margin: 0;
+}
