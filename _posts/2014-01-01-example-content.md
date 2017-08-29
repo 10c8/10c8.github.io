@@ -1,9 +1,9 @@
 ---
 layout: post
+comments: true
 title: Example content
 author: William F.
 tags: info tutorial markdown
-comments: true
 ---
 
 
