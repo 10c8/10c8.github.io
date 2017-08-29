@@ -120,14 +120,24 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
   color: #888;
   letter-spacing: 0;
+  margin-left: 10px;
+}
+.masthead-icon {
+  float: right;
+  margin-left: 15px;
+}
+.masthead-icon:hover {
+  color: #555;
 }
 
 @media (max-width: 48rem) {
   .masthead-title {
-    text-align: center;
+    /* text-align: center; */
+    margin-bottom: 1rem !important;
   }
   .masthead-title small {
     display: none;
+
   }
 }
 
