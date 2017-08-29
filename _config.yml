@@ -16,7 +16,23 @@ description:      "..."
 url:              http://10c8.github.io
 
 author:
-    name:         '10c8'
+    name:         "10c8"
     url:          https://github.com/10c8
 
+social:
+    name:         "William Fernandes"
+    links:
+        - https://10c8.github.com/
+        - https://github.com/10c8
+
+feed:
+    path:         atom.xml
+
 paginate:         5
+
+jekyll-minifier:
+    remove_intertag_spaces: true
+    exclude:
+        - "atom.xml"
+        - "LICENSE.md"
+        - "README.md"
