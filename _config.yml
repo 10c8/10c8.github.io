@@ -6,6 +6,8 @@ kramdown:
     input:              GFM
     syntax_highlighter: rouge
 
+gems: ["jemoji"]
+
 # Permalinks
 permalink:        pretty
 
