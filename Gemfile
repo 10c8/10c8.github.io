@@ -14,5 +14,5 @@ group :jekyll_plugins do
    gem "jekyll_github_sample"
    gem "jekyll-twitter-plugin"
    gem "jekyll-youtube"
-   gem "emoji_for_jekyll"
+   gem "jemoji"
 end

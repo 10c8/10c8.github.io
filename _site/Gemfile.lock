@@ -10,12 +10,15 @@ GEM
       public_suffix (>= 2.0.2, < 4.0)
     colorator (1.1.0)
     cssminify2 (2.0.1)
-    emoji_for_jekyll (0.2.3)
     execjs (2.7.0)
     faraday (0.13.1)
       multipart-post (>= 1.2, < 3)
     ffi (1.9.18)
     forwardable-extended (2.6.0)
+    gemoji (3.0.0)
+    html-pipeline (2.7.0)
+      activesupport (>= 2)
+      nokogiri (>= 1.4)
     htmlcompressor (0.3.1)
     i18n (0.8.6)
     jekyll (3.3.0)
@@ -53,6 +56,11 @@ GEM
     jekyll_github_sample (0.3.0)
       activesupport (~> 4.0)
       jekyll (~> 3.0)
+    jemoji (0.8.0)
+      activesupport (~> 4.0)
+      gemoji (~> 3.0)
+      html-pipeline (~> 2.2)
+      jekyll (>= 3.0)
     json (2.1.0)
     kramdown (1.14.0)
     liquid (3.0.6)
@@ -60,8 +68,11 @@ GEM
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
     mercenary (0.3.6)
+    mini_portile2 (2.1.0)
     minitest (5.10.3)
     multipart-post (2.0.0)
+    nokogiri (1.6.8.1)
+      mini_portile2 (~> 2.1.0)
     octokit (4.7.0)
       sawyer (~> 0.8.0, >= 0.5.3)
     pathutil (0.14.0)
@@ -91,7 +102,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  emoji_for_jekyll
   jekyll (~> 3.3)
   jekyll-feed (~> 0.6)
   jekyll-gist
@@ -102,6 +112,7 @@ DEPENDENCIES
   jekyll-twitter-plugin
   jekyll-youtube
   jekyll_github_sample
+  jemoji
 
 RUBY VERSION
    ruby 2.0.0p648
