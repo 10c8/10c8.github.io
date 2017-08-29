@@ -1,30 +1,30 @@
+
 # SEO settings
-title: "10c8@dev"
-description: "Tales of code and insomnia."
-keywords: "blog, web, programming, 10c8"
-url: "http://10c8.github.io/"
+title: "Think"
+title2: "space" # default: ""
+description: "Just another minimalist Jekyll theme for technical writing."
+keywords: "Jekyll, theme, free, download, SEO, blog, web, minimalist, thinkspace"
+url: http://10c8.github.io/
 baseurl: null
 
-google_analytics: "UA-XXXXX-XX"
-repo: "http://github.com/10c8/10c8.github.io"
+google_analytics: UA-XXXXX-XX
+repo: http://github.com/heiswayi/thinkspace
 disqus_shortname: "hnbloggithub"
-twitter_username: "10c8"
+twitter_username: "HeiswayiNrird"
 comments: true
 
 # Build settings
-permalink: pretty
-markdown: kramdown
-highlighter: rouge
+permalink   : pretty
+markdown    : kramdown
+highlighter : rouge
 
 source: ./
 destination: ./_site
 
-paginate: 5
-
 # Sass configuration
 sass:
   sass_dir: assets/scss
-  style: compressed
+  style: compressed # expanded
 
 # Author settings
 author:
@@ -35,13 +35,14 @@ author:
   email    : dev10c8@gmail.com
   url      : http://10c8.github.io
   github   : http://github.com/10c8
-  twitter  : http://twitter.com/10c8
-  linkedin : http://linkedin.com/in/10c8
+  twitter  : #
+  facebook : #
+  linkedin : #
 
-# Social settings
+# social settings
 og_locale: "en_US"
 twitter_card: "summary_large_image"
-twitter_site: "@10c8"
+twitter_site: "#"
 
 gems:
   - bourbon
