@@ -1,7 +1,10 @@
 ---
 layout: page
 title: About
-permalink: /about/
 ---
 
-Introduce yourself here... so people will know who you are and what you do.. blah..blah..blah..
+<p class="message">
+  Hey there! We still need to add stuff to this page!
+</p>
+
+Thanks for reading!

@@ -1,58 +1,22 @@
+# Dependencies
+markdown:         kramdown
+highlighter:      rouge
 
-# SEO settings
-title: "Think"
-title2: "space" # default: ""
-description: "Just another minimalist Jekyll theme for technical writing."
-keywords: "Jekyll, theme, free, download, SEO, blog, web, minimalist, thinkspace"
-url: http://10c8.github.io/
-baseurl: null
+kramdown:
+    input:              GFM
+    syntax_highlighter: rouge
 
-google_analytics: UA-XXXXX-XX
-repo: http://github.com/heiswayi/thinkspace
-disqus_shortname: "hnbloggithub"
-twitter_username: "HeiswayiNrird"
-comments: true
+# Permalinks
+permalink:        pretty
 
-# Build settings
-permalink   : pretty
-markdown    : kramdown
-highlighter : rouge
+# Setup
+title:            "10c8@blog"
+tagline:          "Tales of code and insomnia."
+description:      "..."
+url:              http://10c8.github.io
 
-source: ./
-destination: ./_site
-
-# Sass configuration
-sass:
-  sass_dir: assets/scss
-  style: compressed # expanded
-
-# Author settings
 author:
-  name     : "10c8"
-  job      : "hobbyist programmer"
-  bio      : "."
-  thumb    : /images/author.jpg
-  email    : dev10c8@gmail.com
-  url      : http://10c8.github.io
-  github   : http://github.com/10c8
-  twitter  : #
-  facebook : #
-  linkedin : #
+    name:         '10c8'
+    url:          https://github.com/10c8
 
-# social settings
-og_locale: "en_US"
-twitter_card: "summary_large_image"
-twitter_site: "#"
-
-gems:
-  - bourbon
-  - jekyll-paginate
-
-# navbar pages
-navbar:
-  - slug : about
-    title: About
-  - slug : blog
-    title: Blog
-
-exclude: ["gulp", "node_modules", "bower", "bower_components", "config.rb", "src", "Gemfile", "Gemfile.lock", ".rvmrc", ".rbenv-version", "package.json", "gulpfile.js", "README.md", "Rakefile", "changelog.md"]
+paginate:         5
