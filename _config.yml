@@ -6,19 +6,15 @@ url: "http://10c8.github.io/"
 baseurl: null
 
 google_analytics: "UA-XXXXX-XX"
-repo: "http://github.com/heiswayi/thinkspace"
+repo: "http://github.com/10c8/10c8.github.io"
 disqus_shortname: "hnbloggithub"
-twitter_username: "HeiswayiNrird"
+twitter_username: "10c8"
 comments: true
 
 # Build settings
 permalink: pretty
 markdown: kramdown
 highlighter: rouge
-
-kramdown:
-    input: GFM
-    syntax_highlighter: rouge
 
 source: ./
 destination: ./_site
