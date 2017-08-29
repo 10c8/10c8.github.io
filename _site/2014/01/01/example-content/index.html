@@ -41,7 +41,12 @@
       <div class="container content">
       <div class="post">
   <h1 class="post-title">Example content</h1>
-  <span class="post-date">01 Jan 2014 &middot; William F.</span>
+
+  
+  <span class="post-date"><i>01 Jan 2014 &middot; 
+3 minutes read
+</i></span>
+
   <div class="message">
   Howdy! This is an example blog post that shows several types of HTML content supported in this theme.
 </div>
@@ -162,8 +167,6 @@
 </table>
 
 <p>Nullam id dolor id nibh ultricies vehicula ut id elit. Sed posuere consectetur est at lobortis. Nullam quis risus eget urna mollis ornare vel eu leo.</p>
-
-<p>Want to see something else added? <a href="https://github.com/poole/poole/issues/new">Open an issue.</a></p>
   <div class="page-tags">
     <span>Tags: </span>
     
@@ -182,22 +185,29 @@
   </div>
 </div>
 
+
+<div id="disqus_thread"></div>
+<script>
+var disqus_config = function () {
+  this.page.url = 'http://10c8.github.io/2014/01/01/example-content/';
+  this.page.identifier = '/2014/01/01/example-content';
+};
+(function() {
+  var d = document, s = d.createElement('script');
+  s.src = 'https://10c8-blog.disqus.com/embed.js';
+  s.setAttribute('data-timestamp', +new Date());
+  (d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
 <div class="related">
   <h2>Related Posts</h2>
   <ul class="related-posts">
     
     
     
-    
-      
-      <li>
-        <h3>
-          <a href="/2014/01/02/introducing-lanyon/">
-            Introducing Lanyon
-            <small>02 Jan 2014</small>
-          </a>
-        </h3>
-      </li>
     
       
       <li>

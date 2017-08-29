@@ -59,21 +59,23 @@ html {
 }
 
 body {
-  color: #515151;
-  background-color: #fff;
+  font-size: 16px;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }
 
 /* No `:visited` state is required by default (browsers will use `a`) */
 a {
-  color: #268bd2;
+  color: #DDD;
   text-decoration: none;
+  border-bottom: dotted 2px #DDD;
 }
 /* `:focus` is linked to `:hover` for basic accessibility */
 a:hover,
 a:focus {
-  text-decoration: underline;
+  color: #FFF;
+  text-decoration: none;
+  border-bottom: solid 2px #FFF;
 }
 
 /* Headings */
@@ -107,7 +109,7 @@ p {
 }
 
 strong {
-  color: #303030;
+  color: #EEE;
 }
 
 
@@ -119,6 +121,7 @@ ul, ol, dl {
 
 dt {
   font-weight: bold;
+  color: #EEE;
 }
 dd {
   margin-bottom: .5rem;
@@ -136,7 +139,7 @@ hr {
 abbr {
   font-size: 85%;
   font-weight: bold;
-  color: #555;
+  color: #999;
   text-transform: uppercase;
 }
 abbr[title] {
@@ -147,14 +150,17 @@ abbr[title] {
 /* Code */
 code,
 pre {
-  font-family: Menlo, Monaco, "Courier New", monospace;
+  font-family: "Terminus (TTF) for Windows", Menlo, Monaco, "Courier New", monospace;
+  -webkit-font-smoothing: none;
+  -moz-osx-font-smoothing: never;
+  font-smooth: never;
 }
 code {
   padding: .25em .5em;
-  font-size: 85%;
-  color: #bf616a;
-  background-color: #f9f9f9;
-  border-radius: 3px;
+  font-size: 12px;
+  color: #979BC2;
+  background-color: #1D1F21;
+  /* border-radius: 3px; */
 }
 pre {
   display: block;
@@ -177,7 +183,8 @@ pre code {
 }
 .highlight {
   margin-bottom: 1rem;
-  border-radius: 4px;
+  /* border-radius: 4px; */
+  font-size: 12px;
 }
 .highlight pre {
   margin-bottom: 0;
@@ -188,7 +195,7 @@ blockquote {
   padding: .5rem 1rem;
   margin: .8rem 0;
   color: #7a7a7a;
-  border-left: .25rem solid #e5e5e5;
+  border-left: .25rem solid #BBB;
 }
 blockquote p:last-child {
   margin-bottom: 0;
@@ -210,17 +217,17 @@ img {
 table {
   margin-bottom: 1rem;
   width: 100%;
-  border: 1px solid #e5e5e5;
+  border: 1px solid #555;
   border-collapse: collapse;
 }
 td,
 th {
   padding: .25rem .5rem;
-  border: 1px solid #e5e5e5;
+  border: 1px solid #555;
 }
 tbody tr:nth-child(odd) td,
 tbody tr:nth-child(odd) th {
-  background-color: #f9f9f9;
+  background-color: #1D1F21;
 }
 
 
@@ -246,8 +253,8 @@ tbody tr:nth-child(odd) th {
 .message {
   margin-bottom: 1rem;
   padding: 1rem;
-  color: #717171;
-  background-color: #f9f9f9;
+  color: #777;
+  background-color: #1D1F21;
 }
 
 

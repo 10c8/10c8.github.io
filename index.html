@@ -9,7 +9,8 @@ layout: default
       <a href="{{ post.url }}">{{ post.title }}</a>
     </h1>
 
-    <span class="post-date">{{ post.date | date_to_string }} &middot; {{ post.author }}</span>
+    {% assign words = post.content | number_of_words %}
+    <span class="post-date"><i>{{ post.date | date_to_string }} &middot; {% include read_time.html %}</i></span>
 
     {{ post.excerpt | markdownify | strip_html | truncatewords: 50 }}
 

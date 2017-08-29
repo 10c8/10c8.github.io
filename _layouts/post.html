@@ -4,7 +4,10 @@ layout: default
 
 <div class="post">
   <h1 class="post-title">{{ page.title }}</h1>
-  <span class="post-date">{{ page.date | date_to_string }} &middot; {{ page.author }}</span>
+
+  {% assign words = page.content | number_of_words %}
+  <span class="post-date"><i>{{ page.date | date_to_string }} &middot; {% include read_time.html %}</i></span>
+
   {{ content | smartify }}
   <div class="page-tags">
     <span>Tags: </span>
