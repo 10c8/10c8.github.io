@@ -44,6 +44,16 @@
 					<integer>11</integer>
 				</dict>
 			</dict>
+			<key>2017-08-30-natus-imperare.md</key>
+			<dict>
+				<key>lastModification</key>
+				<real>525824047.78946799</real>
+				<key>version</key>
+				<dict>
+					<key>5a7e03effc9c54491b95e7e00c29c0f421ece83e8e1e81b78785a1564ea102f0</key>
+					<integer>21</integer>
+				</dict>
+			</dict>
 		</dict>
 		<key>userIconName</key>
 		<real>525724918.09964001</real>
@@ -59,6 +69,9 @@
 		<array>
 			<string>2014-01-01-example-content.md</string>
 		</array>
+		<array>
+			<string>2017-08-30-natus-imperare.md</string>
+		</array>
 	</array>
 	<key>storeFormatVersion</key>
 	<integer>1</integer>
@@ -69,7 +82,7 @@
 		<key>sheetClusters</key>
 		<dict>
 			<key>5a7e03effc9c54491b95e7e00c29c0f421ece83e8e1e81b78785a1564ea102f0</key>
-			<integer>14</integer>
+			<integer>22</integer>
 		</dict>
 		<key>userIconName</key>
 		<dict>

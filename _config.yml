@@ -33,7 +33,6 @@ feed:
 paginate:         5
 
 jekyll-minifier:
-    remove_intertag_spaces: true
     exclude:
         - "atom.xml"
         - "LICENSE.md"
