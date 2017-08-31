@@ -442,3 +442,9 @@ img.emoji {
   display: inline-block;
   margin: 0;
 }
+
+/* Stuff */
+.comments-disabled {
+  padding-top: 10px;
+  border-top: solid 1px #555;
+}
