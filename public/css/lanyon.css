@@ -166,6 +166,11 @@ h1, h2, h3, h4, h5, h6 {
   border-bottom: 2px solid #FFF !important;
 }
 
+.post-title-link {
+  text-decoration: none !important;
+  border: none !important;
+}
+
 .page-title,
 .post-title {
   margin-top: 0;
