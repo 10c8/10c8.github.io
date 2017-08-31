@@ -133,7 +133,7 @@ h1, h2, h3, h4, h5, h6 {
 @media (max-width: 48rem) {
   .masthead {
     /* text-align: center; */
-    padding-bottom: 0.1rem !important;
+    padding-bottom: 1rem !important;
   }
   .masthead-title small {
     display: none;
