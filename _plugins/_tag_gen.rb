@@ -11,7 +11,7 @@ module Jekyll
 
             self.data['tag'] = tag
             self.data['title'] = "Posts Tagged &ldquo;#{tag}&rdquo;"
-            self.data['permalink'] = "tag/#{tag}/index.html"
+            self.data['permalink'] = "/tag/#{tag}"
         end
     end
 
