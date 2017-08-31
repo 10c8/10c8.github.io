@@ -35,5 +35,6 @@ paginate:         5
 jekyll-minifier:
     exclude:
         - "atom.xml"
+        - "sitemap.xml"
         - "LICENSE.md"
         - "README.md"
