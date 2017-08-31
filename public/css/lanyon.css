@@ -448,3 +448,15 @@ img.emoji {
   padding-top: 10px;
   border-top: solid 1px #555;
 }
+
+.post-read-more {
+  color: #999;
+  border: none !important;
+}
+.post-read-more:hover {
+  color: #FFF;
+  border-bottom: 2px solid #FFF;
+}
+.post-read-more:hover :after {
+  content: ' (Read more...)';
+}

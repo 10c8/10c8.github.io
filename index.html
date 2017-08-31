@@ -14,6 +14,10 @@ layout: default
 
     {{ post.excerpt | markdownify | strip_html | truncatewords: 50 }}
 
+    {% unless post.excerpt == post.content %}
+    <a class="post-read-more" href="{{ post.url }}"><i>[...]</i></a>
+    {% endunless %}
+
     <div class="page-tags">
       <span>Tags: </span>
       {% for tag in post.tags %}
