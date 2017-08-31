@@ -8,11 +8,10 @@ module Jekyll
 
             self.process(@name)
             self.read_yaml(File.join(base, '_layouts'), 'tag_index.html')
-            self.data['tag'] = tag
 
-            tag_title_prefix = site.config['tag_title_prefix'] || 'Posts Tagged &ldquo;'
-            tag_title_suffix = site.config['tag_title_suffix'] || '&rdquo;'
-            self.data['title'] = "#{tag_title_prefix}#{tag}#{tag_title_suffix}"
+            self.data['tag'] = tag
+            self.data['title'] = "Posts Tagged &ldquo;#{tag}&rdquo;"
+            self.data['permalink'] = "tag/#{tag}/index.html"
         end
     end
 
@@ -32,6 +31,7 @@ module Jekyll
             index = TagIndex.new(site, site.source, dir, tag)
             index.render(site.layouts, site.site_payload)
             index.write(site.dest)
+
             site.pages << index
         end
     end
