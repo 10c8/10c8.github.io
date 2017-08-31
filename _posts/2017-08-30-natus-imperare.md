@@ -2,7 +2,7 @@
 layout: post
 comments: true
 title: Natus Imperare
-tags: [story, writing, introduction]
+tags: [story, writing]
 ---
 
 > “My legion, your mission is to clear the cave east of Lunaren, in order to facilitate the advance of our troops on their way to Aaerdin.”
