@@ -12,19 +12,16 @@
             <a href="/">All Articles</a>
           </li>
           <li class="nav-item menu-nav-item">
-            <a href="/atom.xml">Feed</a>
+            <a href="/feed.xml">Feed</a>
           </li>
           <li class="nav-item menu-nav-item">
             <a href="/2017/08/29/whois-10c8/">About</a>
           </li>
-          <!-- <li class="nav-item menu-nav-item">
-            <a href="/portfolio/">Portfolio</a>
-          </li> -->
           <li class="nav-item divider-nav-item">Links:</li>
-          <li class="nav-item menu-nav-item">
+          <li class="nav-item menu-nav-item menu-nav-link">
             <a href="https://github.com/10c8/">Github</a>
           </li>
-          <li class="nav-item menu-nav-item">
+          <li class="nav-item menu-nav-item menu-nav-link">
             <a href="https://twitter.com/10c8_">Twitter</a>
           </li>
           <li class="nav-item divider-nav-item">Categories:</li>
@@ -32,7 +29,7 @@
           {% include fetch_tags.html %}
           {% for tag in tags %}
             {% unless tag == "uncategorized" %}
-            <li class="nav-item menu-nav-item">
+            <li class="nav-item menu-nav-item menu-nav-link">
               <a href="/tag/#{{ tag | slugify }}">{{ tag }}</a>
             </li>
             {% endunless %}
