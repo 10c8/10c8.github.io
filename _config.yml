@@ -6,7 +6,9 @@ kramdown:
     input:              GFM
     syntax_highlighter: rouge
 
-gems: ["jemoji"]
+gems:
+    - jekyll-feed
+    - jemoji
 
 # Permalinks
 permalink:        pretty
@@ -14,7 +16,7 @@ permalink:        pretty
 # Setup
 title:            "10c8@blog"
 tagline:          "Tales of code and insomnia."
-description:      "..."
+description:      "Tales of code and insomnia."
 url:              http://10c8.github.io
 
 author:
@@ -25,16 +27,17 @@ social:
     name:         "William Fernandes"
     links:
         - https://10c8.github.com/
-        - https://github.com/10c8
+        - https://github.com/10c8/
+        - https://twitter.com/10c8_
 
 feed:
-    path:         atom.xml
+    path:         feed.xml
 
-paginate:         5
+paginate:         3
 
 jekyll-minifier:
     exclude:
-        - "atom.xml"
-        - "sitemap.xml"
-        - "LICENSE.md"
-        - "README.md"
+        - atom.xml
+        - sitemap.xml
+        - LICENSE.md
+        - README.md

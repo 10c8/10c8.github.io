@@ -2,25 +2,33 @@
 layout: default
 ---
 
-<div class="post">
-  <h1 class="post-title">{{ page.title }}</h1>
-
-  {% assign words = page.content | number_of_words %}
-  <span class="post-date"><i>{{ page.date | date_to_string }} &middot; {% include read_time.html %}</i></span>
-
-  {{ content | smartify }}
-  <div class="page-tags">
-    <span>Tags: </span>
-    {% for tag in page.tags %}
-    <small>
-      <a href="/tag/#{{ tag | slugify }}">{{ tag }}</a>
-    </small>
-    {% endfor %}
+<article class="post">
+  <header>
+      <div class="post-meta">
+          <time class="post-time">{{ page.date | date_to_string }}</time>
+          <span class="sep">&nbsp;—&nbsp;</span>
+          {% assign words = page.content | number_of_words %}
+          <span>{% include read_time.html %}</span>
+      </div>
+  </header>
+  <h1 class="post-title">
+      <a href="#">{{ page.title }}</a>
+  </h1>
+  <div class="post-content">
+      {{ content | smartify }}
   </div>
-</div>
+  <div class="page-tags">
+      <span>Tags: </span>
+      {% for tag in page.tags %}
+      <small>
+        <a href="/tag/#{{ tag | slugify }}">{{ tag }}</a>
+      </small>
+      {% endfor %}
+    </div>
+</article>
 
 {% if page.comments %}
-<div id="disqus_thread"></div>
+<div id="disqus_thread" style="margin-bottom: 2rem;"></div>
 <script>
 var disqus_config = function () {
   this.page.url = 'http://10c8.github.io{{ page.url }}';
@@ -37,38 +45,3 @@ var disqus_config = function () {
 {% else %}
 <h4 class="comments-disabled">Comments are disabled for this post.</h4>
 {% endif %}
-
-<div class="related">
-  <h2>Related Posts</h2>
-  <ul class="related-posts">
-    {% assign posted = '' %}
-    {% for post in site.posts %}
-      {% for tag in page.tags %}
-        {% if post.tags contains tag and post != page %}
-          {% capture post_string %}{{ post.url }}|{{ post.title }}|{{ post.date }}{% endcapture %}
-          {% unless posted contains post_string %}
-            {% capture posted %}{{ posted }}^{{ post_string }}{% endcapture %}
-          {% endunless %}
-        {% endif %}
-      {% endfor %}
-    {% endfor %}
-    {% if posted != "" %}
-      {% assign posts = posted | split: "^" %}
-      {% for post in posts offset: 1 limit: 3 %}
-        {% assign p_info = post | split: "|" %}
-        <li>
-          <h3>
-            <a href="{{ p_info[0] }}">
-              {{ p_info[1] }}
-              <small>{{ p_info[2] | date_to_string }}</small>
-            </a>
-          </h3>
-        </li>
-      {% endfor %}
-    {% else %}
-      <li>
-        <h3>None.</h3>
-      </li>
-    {% endif %}
-  </ul>
-</div>

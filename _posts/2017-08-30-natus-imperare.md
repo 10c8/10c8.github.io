@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Natus Imperare
-tags: [story, writing]
+tags: writing
 comments: true
 ---
 

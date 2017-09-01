@@ -6,21 +6,21 @@ permalink: /tag/
 
 {% include fetch_tags.html %}
 
-<div class="page">
+<div class="tag-page">
   <h1 class="page-title">Tags</h1>
   {% for tag in tags %}
-  <h2 id="{{ tag | slugify }}">{{ tag }}</h2>
+  <h3 id="{{ tag | slugify }}">{{ tag }}</h3>
   <ul>
   {% for post in site.posts %}
     {% if post.tags contains tag %}
     <li>
-      <h3>
+      <h4>
         <a class="post-title-link" href="{{ post.url }}">{{ post.title }} <small>{{ post.date | date_to_string }}</small></a>
         &nbsp;&middot;&nbsp
         {% for tag in post.tags %}
         <a class="tag" href="/tag/#{{ tag | slugify }}"><small>{{ tag }}</small></a>
         {% endfor %}
-      </h3>
+      </h4>
     </li>
     {% endif %}
   {% endfor %}

@@ -14,24 +14,23 @@
   </title>
 
   <!-- CSS -->
-  <!-- <style>
+  <style>
   @font-face {
     font-family: 'Terminus (TTF) for Windows';
     src: url('/public/css/fonts/TerminusTTFWindows-4.46.0.ttf');
   }
-  </style> -->
+  </style>
 
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700|PT+Sans:400">
+  <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="/public/css/poole.css">
+  <link rel="stylesheet" href="/public/css/style.css">
   <link rel="stylesheet" href="/public/css/syntax.css">
-  <link rel="stylesheet" href="/public/css/lanyon.css">
 
   <!-- Icons -->
   <link rel="shortcut icon" type="image/png" href="public/favicon.png"/>
 
   <!-- RSS -->
-  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+  {% feed_meta %}
 
   <!-- SEO -->
   {% seo %}
