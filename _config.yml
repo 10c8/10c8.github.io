@@ -58,7 +58,6 @@ compress_html:
     comments: all
     endings: all
     blanklines: true
-    startings: [html, head, body]
 
 # Algolia search
 # algolia:
