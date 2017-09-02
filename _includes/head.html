@@ -17,7 +17,7 @@
   <style>
   @font-face {
     font-family: 'Terminus (TTF) for Windows';
-    src: url('/public/css/fonts/TerminusTTFWindows-4.46.0.ttf');
+    src: url('/public/css/fonts/TerminusTTFWindows-4.46.0.ttf') format('truetype');
   }
   </style>
 
@@ -27,11 +27,14 @@
   <link rel="stylesheet" href="/public/css/syntax.css">
 
   <!-- Icons -->
-  <link rel="shortcut icon" type="image/png" href="public/favicon.png"/>
+  <link rel="shortcut icon" type="image/png" href="/assets/img/favicon.png"/>
 
   <!-- RSS -->
   {% feed_meta %}
 
   <!-- SEO -->
   {% seo %}
+
+  <!-- Scripts -->
+  <!-- <script src="https://cdn.jsdelivr.net/algoliasearch/3/algoliasearchLite.min.js"></script> -->
 </head>

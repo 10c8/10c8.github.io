@@ -1,4 +1,6 @@
 #!/bin/bash
+CURRENT_DATE=$(date +%Y-%m-%d)
+
 git checkout master
 git merge source
 clear
@@ -9,7 +11,7 @@ echo
 
 echo '[commit]'
 git add -A
-git commit -m'Build website.'
+git commit -m"[$CURRENT_DATE] Build website."
 echo
 
 echo '[push]'

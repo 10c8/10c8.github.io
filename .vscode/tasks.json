@@ -20,12 +20,43 @@
             }
         },
         {
+            "taskName": "Preview",
+            "type": "shell",
+            "command": "./scripts/preview.sh",
+            "windows": {
+                "command": ".\\scripts\\preview.cmd"
+            },
+            "group": {
+                "kind": "test",
+                "isDefault": true
+            },
+            "presentation": {
+                "reveal": "always",
+                "panel": "new"
+            }
+        },
+        {
             "taskName": "Create a new post",
             "type": "shell",
             "command": "./scripts/mkpost.sh",
             "isBackground": true,
             "windows": {
                 "command": ".\\scripts\\mkpost.cmd"
+            },
+            "group": "none",
+            "presentation": {
+                "reveal": "always",
+                "panel": "new"
+            },
+            "problemMatcher": []
+        },
+        {
+            "taskName": "Create a new draft",
+            "type": "shell",
+            "command": "./scripts/mkdraft.sh",
+            "isBackground": true,
+            "windows": {
+                "command": ".\\scripts\\mkdraft.cmd"
             },
             "group": "none",
             "presentation": {
