@@ -11,7 +11,7 @@ echo
 
 echo '[commit]'
 git add -A
-git commit -m"[$CURRENT_DATE] Build website."
+git commit -m"[$CURRENT_DATE] Update website."
 echo
 
 echo '[push]'
