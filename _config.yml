@@ -38,7 +38,6 @@ paginate:         3
 gems:
     - jekyll-feed
     - jemoji
-    - octopress-minify-html
 #   - algoliasearch-jekyll
 
 # Exclusions
@@ -54,11 +53,12 @@ exclude:
 # jekyll-minifier:
 #     exclude: ["feed.xml", "sitemap.xml"]
 
-env: production
-
-html_press:
-    unquoted_attributes: true
-    js_minifier_options: true
+compress_html:
+    clippings: all
+    comments: all
+    endings: all
+    blanklines: true
+    startings: [html, head, body]
 
 # Algolia search
 # algolia:

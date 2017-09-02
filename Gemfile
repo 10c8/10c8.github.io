@@ -10,7 +10,6 @@ group :jekyll_plugins do
    gem "jekyll-sitemap"
 #  gem 'algoliasearch-jekyll', '~> 0.8.2'
 #  gem "jekyll-minifier"
-   gem 'octopress-minify-html'
    gem "jekyll-paginate"
    gem "jekyll-gist"
    gem "jekyll_github_sample"
