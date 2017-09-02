@@ -6,7 +6,7 @@ git merge source
 clear
 
 echo '[build]'
-bundle exec jekyll build
+bundle exec jekyll build --incremental
 echo
 
 echo '[commit]'
