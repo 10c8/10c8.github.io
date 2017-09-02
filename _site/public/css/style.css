@@ -1,0 +1,586 @@
+/*
+* Body resets
+*
+* Update the foundational and global aspects of the page.
+*/
+
+* {
+-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+        box-sizing: border-box;
+}
+
+html,
+body {
+margin: 0;
+padding: 0;
+}
+
+html {
+font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 16px;
+line-height: 1.5;
+}
+@media (min-width: 38rem) {
+html {
+    font-size: 20px;
+}
+}
+
+body {
+font-size: 16px;
+-webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: auto;
+    text-decoration: underline;
+}
+
+/*
+* Body
+*/
+
+body {
+    font-family: 'Merriweather';
+    font-size: 16px;
+    line-height: 20px;
+
+    background-color: #000;
+}
+
+a {
+    color: #BBB !important;
+    text-decoration: none !important;
+}
+
+a:hover {
+    color: #FFF !important;
+    text-decoration: underline !important;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: .5rem;
+    font-weight: bold;
+    line-height: 1.25;
+    color: #EEE;
+    text-rendering: optimizeLegibility;
+}
+
+h2 {
+    margin-top: 1rem;
+    font-size: 1.25rem;
+}
+
+h3 {
+    margin-top: 1.5rem;
+    font-size: 1rem;
+}
+
+h4, h5, h6 {
+    margin-top: 1rem;
+    font-size: 0.75rem;
+}
+
+
+/* Body text */
+p {
+margin-top: 0;
+margin-bottom: 1rem;
+color: #999;
+}
+
+strong {
+color: #EEE;
+}
+
+
+/* Lists */
+ul, ol, dl {
+margin-top: 0;
+margin-bottom: 1rem;
+}
+
+dt {
+font-weight: bold;
+color: #EEE;
+}
+dd {
+margin-bottom: .5rem;
+}
+
+/* Misc */
+hr {
+position: relative;
+margin: 1.5rem 0;
+border: 0;
+border-top: 1px solid #eee;
+border-bottom: 1px solid #fff;
+}
+
+abbr {
+font-size: 85%;
+font-weight: bold;
+color: #999;
+text-transform: uppercase;
+}
+abbr[title] {
+cursor: help;
+border-bottom: 1px dotted #e5e5e5;
+}
+
+/* Code */
+code,
+pre {
+font-family: 'Terminus (TTF) for Windows', Menlo, Monaco, "Courier New", monospace;
+-webkit-font-smoothing: none;
+-moz-osx-font-smoothing: never;
+font-smooth: never;
+}
+code {
+padding: .25em .5em;
+font-size: 12px;
+color: #979BC2;
+background-color: #1D1F21;
+/* border-radius: 3px; */
+}
+pre {
+display: block;
+margin-top: 0;
+margin-bottom: 1rem;
+padding: 1rem;
+font-size: .8rem;
+line-height: 1.4;
+white-space: pre;
+white-space: pre-wrap;
+word-break: break-all;
+word-wrap: break-word;
+background-color: #f9f9f9;
+}
+pre code {
+padding: 0;
+font-size: 100%;
+color: inherit;
+background-color: transparent;
+}
+.highlight {
+margin-bottom: 1rem;
+/* border-radius: 4px; */
+font-size: 12px;
+}
+.highlight pre {
+    margin-bottom: 0;
+}
+
+/* Quotes */
+blockquote {
+    padding: .5rem 1rem;
+    margin: .8rem 0;
+    color: #7a7a7a;
+    border-left: .25rem solid #BBB;
+}
+blockquote p:last-child {
+    margin-bottom: 0;
+}
+@media (min-width: 30rem) {
+    blockquote {
+        padding-right: 5rem;
+        padding-left: 1.25rem;
+    }
+}
+
+img {
+    display: block;
+    margin: 0 0 1rem;
+    border-radius: 5px;
+}
+
+/* Tables */
+table {
+    margin-bottom: 1rem;
+    width: 100%;
+    border: 1px solid #555;
+    border-collapse: collapse;
+}
+td,
+th {
+    padding: .25rem .5rem;
+    border: 1px solid #555;
+}
+tbody tr:nth-child(odd) td,
+tbody tr:nth-child(odd) th {
+    background-color: #1D1F21;
+}
+
+
+/*
+* Custom type
+*
+* Extend paragraphs with `.lead` for larger introductory text.
+*/
+
+.lead {
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.25rem;
+}
+
+
+/*
+* Messages
+*
+* Show alert messages to users. You may add it to single elements like a `<p>`,
+* or to a parent if there are multiple elements to show.
+*/
+
+.message {
+    margin-bottom: 1rem;
+    padding: 1rem;
+    color: #777;
+    background-color: #1D1F21;
+}
+
+/*
+ * Pagination
+ *
+ * Super lightweight (HTML-wise) blog pagination. `span`s are provide for when
+ * there are no more previous or next posts to show.
+ */
+
+.pagination {
+overflow: hidden; /* clearfix */
+margin-left: 0;
+margin-right: 0;
+font-family: 'Terminus (TTF) for Windows', serif;
+font-size: 16px;
+-webkit-font-smoothing: none;
+font-smooth: never;
+color: #ccc;
+text-align: center;
+}
+
+/* Pagination items can be `span`s or `a`s */
+.pagination-item {
+display: block;
+padding: 0.5rem;
+border: 1px solid #444;
+}
+.pagination-item:first-child {
+margin-bottom: -1px;
+}
+
+/* Only provide a hover state for linked pagination items */
+a.pagination-item:hover {
+background-color: #f5f5f5;
+}
+
+@media (min-width: 30rem) {
+.pagination {
+    margin: 3rem 0;
+}
+.pagination-item {
+    float: left;
+    width: 50%;
+}
+.pagination-item:first-child {
+    margin-bottom: 0;
+}
+.pagination-item:last-child {
+    margin-left: -1px;
+}
+}
+
+
+/*
+* Header
+*/
+
+header {
+    margin: 0 auto;
+}
+
+@media only screen and (max-device-width: 480px) {
+    .main-header {
+        position: absolute !important;
+        top: 20px !important;
+        left: 20px !important;
+
+        width: calc(100% - 40px) !important;
+    }
+
+    .main-header .main-logo {
+        position: absolute !important;
+        top: 0 !important;
+        left: 0 !important;
+    }
+
+    .main-header .main-nav {
+        position: absolute !important;
+        top: 0 !important;
+        right: 0 !important;
+
+        margin-top: 0 !important;
+    }
+
+    .main-nav ul li.divider-nav-item,
+    .main-nav ul li.menu-nav-link {
+        display: none !important;
+    }
+
+    section {
+        margin-top: 110px !important;
+        margin-left: 20px !important;
+        margin-right: 20px !important;
+        margin-bottom: 20px !important;
+
+        width: auto !important;
+    }
+}
+
+.main-header {
+    position: fixed;
+    top: 5px;
+    left: 5px;
+
+    padding: 0 5px;
+    padding-bottom: 0.5em;
+    margin: 0.5em auto 0;
+    margin-left: 0px;
+
+    width: 108px;
+
+    font-family: 'Terminus (TTF) for Windows', sans-serif;
+    -webkit-font-smoothing: none;
+}
+
+.main-header .main-logo {
+    position: fixed;
+    top: 52px;
+    left: 52px;
+
+    border-radius: 0 !important;
+
+    width: 56px;
+    height: 56px;
+}
+
+.main-nav {
+    margin-top: 120px;
+}
+
+.main-nav ul {
+    margin: 0 !important;
+
+    font-size: 12px;
+    line-height: 19px;
+
+    text-align: right;
+    text-transform: lowercase;
+
+    list-style: none inside none;
+}
+
+.main-nav ul li {
+    margin-left: -40px !important;
+    margin-bottom: 5px;
+}
+
+.main-nav ul li a {
+    text-decoration: none !important;
+
+    color: #BBB;
+}
+
+.main-nav ul li a:hover {
+    text-decoration: underline !important;
+
+    color: #FFF;
+}
+
+.main-nav ul li.divider-nav-item {
+    margin-top: 20px;
+    color: #666;
+}
+
+/*
+* Content
+*/
+
+section {
+    margin-top: 52px;
+    margin-left: 140px;
+
+    width: 560px;
+
+    text-align: left;
+}
+
+.post {
+    margin-bottom: 1.5rem;
+}
+
+.post header.index {
+    margin-bottom: 0.2rem !important;
+}
+
+.post-meta {
+    margin: 0 0 1em;
+
+    font-size: 12px;
+    line-height: 16px;
+
+    color: #666;
+}
+
+.post-title {
+    margin-bottom: 1.2rem !important;
+}
+
+.post-title.index {
+    margin-bottom: 0 !important;
+}
+
+.post-title a {
+    font-size: 24px;
+    line-height: 22px;
+
+    text-decoration: none !important;
+
+    color: #EEE;
+}
+
+.post-title a:hover {
+    text-decoration: underline !important;
+
+    color: #FFF;
+}
+
+.post-content {
+    font-size: 14px;
+
+    color: #BBB;
+}
+
+.post-content a {
+    text-decoration: none !important;
+
+    border-bottom: 2px dotted #DDD;
+
+    color: #DDD;
+}
+
+.post-content a:hover {
+    text-decoration: none !important;
+
+    border-bottom: 2px solid #FFF;
+
+    color: #FFF;
+}
+
+.page-tags {
+    font-size: 12px;
+
+    color: #666;
+}
+
+.page-tags a {
+    text-decoration: none;
+
+    color: #999;
+}
+
+.page-tags a:hover {
+    text-decoration: underline;
+
+    color: #FFF;
+}
+
+/*
+ * Stuff
+ */
+
+img.emoji {
+    display: inline;
+
+    margin: 0;
+
+    border-radius: 0;
+}
+
+/*
+ * Pattern
+ */
+
+.pattern {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+
+    width: calc(100% - 800px);
+    height: 100%;
+
+    background-image: url('/assets/img/bg_pattern.png');
+}
+
+.pattern:after {
+    content: ' ';
+
+    position: fixed;
+    bottom: 0;
+    right: 0;
+
+    width: calc(100% - 800px);
+    height: 100%;
+
+    background: -webkit-linear-gradient(left, rgba(0,0,0,1) 0%, rgba(0,0,0,.7) 100%);
+}
+
+/*
+ * Tags
+ */
+
+.tag-page h3 {
+    margin-bottom: 0;
+    font-size: 20px;
+}
+
+.tag-page ul {
+    color: #999;
+}
+
+.tag-page a.post-title-link {
+    color: #DDD !important;
+}
+
+.tag-page a {
+    text-decoration: none !important;
+
+    color: #777 !important
+}
+
+.tag-page a:hover {
+    text-decoration: underline !important;
+
+    color: #FFF !important;
+}
+
+/* Stuff */
+.comments-disabled {
+    padding-top: 10px;
+    border-top: solid 1px #555;
+    border-bottom: 2rem;
+    color: #EEE;
+}
+
+.post-read-more {
+    color: #999 !important;
+    border: none !important;
+    text-decoration: none !important;
+}
+.post-read-more:hover {
+    color: #FFF !important;
+    border-bottom: 2px solid #FFF !important;
+}
