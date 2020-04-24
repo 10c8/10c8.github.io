@@ -14,7 +14,9 @@
             "presentation": {
                 "reveal": "always",
                 "panel": "new"
-            }
+            },
+            "problemMatcher": [],
+            "label": "Publish"
         },
         {
             "taskName": "Preview",

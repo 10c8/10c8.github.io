@@ -321,7 +321,7 @@ header {
 
     .main-header .main-nav {
         position: absolute !important;
-        top: 0 !important;
+        top: -5px !important;
         right: 0 !important;
 
         margin-top: 0 !important;
@@ -333,7 +333,7 @@ header {
     }
 
     section {
-        margin-top: 110px !important;
+        margin-top: 120px !important;
         margin-left: 20px !important;
         margin-right: 20px !important;
         margin-bottom: 20px !important;
@@ -352,7 +352,7 @@ header {
     margin: 0.5em auto 0;
     margin-left: 0px;
 
-    width: 108px;
+    width: 130px;
 
     font-family: 'Perfect DOS', sans-serif;
     -webkit-font-smoothing: none;
@@ -361,7 +361,7 @@ header {
 .main-header .main-logo {
     position: fixed;
     top: 52px;
-    left: 52px;
+    left: 80px;
 
     border-radius: 0 !important;
 
@@ -414,7 +414,7 @@ header {
 
 section {
     margin-top: 52px;
-    margin-left: 160px;
+    margin-left: 180px;
 
     width: 560px;
 

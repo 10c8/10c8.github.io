@@ -1,6 +1,9 @@
 #!/bin/bash
 CURRENT_DATE=$(date +%Y-%m-%d)
 
+rm -rf _site_old
+mv _site _site_old
+
 git checkout master
 git merge source
 clear
