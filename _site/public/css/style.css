@@ -1,47 +1,55 @@
 /*
-* Body resets
-*
-* Update the foundational and global aspects of the page.
-*/
+ * Imports
+ */
+@font-face {
+    font-family: "Perfect DOS";
+    src: url("../font/perfect_dos.ttf") format("ttf");
+}
+
+/*
+ * Body resets
+ *
+ * Update the foundational and global aspects of the page.
+ */
 
 * {
--webkit-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
-        box-sizing: border-box;
+         box-sizing: border-box;
 }
 
 html,
 body {
-margin: 0;
-padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 html {
-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-font-size: 16px;
-line-height: 1.5;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
 }
 @media (min-width: 38rem) {
-html {
-    font-size: 20px;
-}
+    html {
+        font-size: 20px;
+    }
 }
 
 body {
-font-size: 16px;
--webkit-text-size-adjust: 100%;
-    -ms-text-size-adjust: 100%;
+    font-size: 16px;
+    -webkit-text-size-adjust: 100%;
+        -ms-text-size-adjust: 100%;
 }
 
 a:-webkit-any-link {
     color: -webkit-link;
-    cursor: auto;
+    /* cursor: auto; */
     text-decoration: underline;
 }
 
 /*
-* Body
-*/
+ * Body
+ */
 
 body {
     font-family: 'Merriweather';
@@ -61,7 +69,10 @@ a:hover {
     text-decoration: underline !important;
 }
 
-/* Headings */
+/*
+ * Headings
+ */
+
 h1, h2, h3, h4, h5, h6 {
     margin-bottom: .5rem;
     font-weight: bold;
@@ -135,41 +146,41 @@ border-bottom: 1px dotted #e5e5e5;
 /* Code */
 code,
 pre {
-font-family: 'Terminus (TTF) for Windows', Menlo, Monaco, "Courier New", monospace;
--webkit-font-smoothing: none;
--moz-osx-font-smoothing: never;
-font-smooth: never;
+    font-family: 'Terminus (TTF) for Windows', Menlo, Monaco, "Courier New", monospace;
+    -webkit-font-smoothing: none;
+    -moz-osx-font-smoothing: never;
+    font-smooth: never;
 }
 code {
-padding: .25em .5em;
-font-size: 12px;
-color: #979BC2;
-background-color: #1D1F21;
-/* border-radius: 3px; */
+    padding: .25em .5em;
+    font-size: 12px;
+    color: #979BC2;
+    background-color: #1D1F21;
+    /* border-radius: 3px; */
 }
 pre {
-display: block;
-margin-top: 0;
-margin-bottom: 1rem;
-padding: 1rem;
-font-size: .8rem;
-line-height: 1.4;
-white-space: pre;
-white-space: pre-wrap;
-word-break: break-all;
-word-wrap: break-word;
-background-color: #f9f9f9;
+    display: block;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    font-size: .8rem;
+    line-height: 1.4;
+    white-space: pre;
+    white-space: pre-wrap;
+    word-break: break-all;
+    word-wrap: break-word;
+    background-color: #f9f9f9;
 }
 pre code {
-padding: 0;
-font-size: 100%;
-color: inherit;
-background-color: transparent;
+    padding: 0;
+    font-size: 100%;
+    color: inherit;
+    background-color: transparent;
 }
 .highlight {
-margin-bottom: 1rem;
-/* border-radius: 4px; */
-font-size: 12px;
+    margin-bottom: 1rem;
+    /* border-radius: 4px; */
+    font-size: 12px;
 }
 .highlight pre {
     margin-bottom: 0;
@@ -251,15 +262,15 @@ tbody tr:nth-child(odd) th {
  */
 
 .pagination {
-overflow: hidden; /* clearfix */
-margin-left: 0;
-margin-right: 0;
-font-family: 'Terminus (TTF) for Windows', serif;
-font-size: 16px;
--webkit-font-smoothing: none;
-font-smooth: never;
-color: #ccc;
-text-align: center;
+    overflow: hidden; /* clearfix */
+    margin-left: 0;
+    margin-right: 0;
+    font-family: 'Perfect DOS', serif;
+    font-size: 16px;
+    -webkit-font-smoothing: none;
+    font-smooth: never;
+    color: #ccc;
+    text-align: center;
 }
 
 /* Pagination items can be `span`s or `a`s */
