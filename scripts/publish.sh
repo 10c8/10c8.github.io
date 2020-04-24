@@ -1,5 +1,5 @@
 #!/bin/bash
-CURRENT_DATE=$(date +%Y-%m-%d)
+CURRENT_DATE=$(date +"%Y-%m-%d %T")
 
 rm -rf _site_old
 mv _site _site_old

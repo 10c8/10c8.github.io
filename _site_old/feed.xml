@@ -1,15 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="http://10c8.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="http://10c8.github.io/" rel="alternate" type="text/html" /><updated>2020-04-24T00:31:41-03:00</updated><id>http://10c8.github.io/feed.xml</id><title type="html">10c8@blog</title><subtitle>Tales of code and insomnia.</subtitle><author><name>10c8</name></author><entry><title type="html">whois 10c8</title><link href="http://10c8.github.io/2017/08/29/whois-10c8/" rel="alternate" type="text/html" title="whois 10c8" /><published>2017-08-29T00:00:00-03:00</published><updated>2017-08-29T00:00:00-03:00</updated><id>http://10c8.github.io/2017/08/29/whois-10c8</id><content type="html" xml:base="http://10c8.github.io/2017/08/29/whois-10c8/">I’m William Fernandes, a hobbyist programmer, living in the hot East Coast of Brazil. I’m _enough to drink_ years old,
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="http://10c8.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="http://10c8.github.io/" rel="alternate" type="text/html" /><updated>2020-04-24T00:33:24-03:00</updated><id>http://10c8.github.io/feed.xml</id><title type="html">10c8@blog</title><subtitle>Tales of code and insomnia.</subtitle><author><name>10c8</name></author><entry><title type="html">whois 10c8</title><link href="http://10c8.github.io/2017/08/29/whois-10c8/" rel="alternate" type="text/html" title="whois 10c8" /><published>2017-08-29T00:00:00-03:00</published><updated>2017-08-29T00:00:00-03:00</updated><id>http://10c8.github.io/2017/08/29/whois-10c8</id><content type="html" xml:base="http://10c8.github.io/2017/08/29/whois-10c8/">&lt;p&gt;I’m William Fernandes, a hobbyist programmer, living in the hot East Coast of Brazil. I’m &lt;em&gt;enough to drink&lt;/em&gt; years old,
 though I much prefer a good coffee over booze. I love music, soft/hardware engineering, emulators, making useless
-projects and my girlfriend Laura (_emjrir_ :heart:).
+projects and my girlfriend Laura (&lt;em&gt;emjrir&lt;/em&gt; :heart:).&lt;/p&gt;
 
-Speaking of music, I sometimes dabble on making my own. You can check my stuff at my [SoundCloud][1] page.
+&lt;p&gt;Speaking of music, I sometimes dabble on making my own. You can check my stuff at my &lt;a href=&quot;https://soundcloud.com/loc8_me&quot;&gt;SoundCloud&lt;/a&gt; page.&lt;/p&gt;
 
-This site is about my thoughts, projects and things that I find interesting in general. All in plain English
-(hopefully).
+&lt;p&gt;This site is about my thoughts, projects and things that I find interesting in general. All in plain English
+(hopefully).&lt;/p&gt;
 
-You can check my stuff here and at my [Github][2].
+&lt;p&gt;You can check my stuff here and at my &lt;a href=&quot;https://github.com/10c8&quot;&gt;Github&lt;/a&gt;.&lt;/p&gt;
 
-Feel free to get in touch with me at `dev10c8 [at] gmail [dot] com`
-
-[1]:	https://soundcloud.com/loc8_me
-[2]:	https://github.com/10c8</content><author><name>10c8</name></author><category term="uncategorized" /><summary type="html">I’m William Fernandes, a hobbyist programmer, living in the hot East Coast of Brazil. I’m enough to drink years old, though I much prefer a good coffee over booze. I love music, soft/hardware engineering, emulators, making useless projects and my girlfriend Laura (emjrir :heart:).</summary></entry></feed>
+&lt;p&gt;Feel free to get in touch with me at &lt;code class=&quot;highlighter-rouge&quot;&gt;dev10c8 [at] gmail [dot] com&lt;/code&gt;&lt;/p&gt;</content><author><name>10c8</name></author><category term="uncategorized" /><summary type="html">I’m William Fernandes, a hobbyist programmer, living in the hot East Coast of Brazil. I’m enough to drink years old, though I much prefer a good coffee over booze. I love music, soft/hardware engineering, emulators, making useless projects and my girlfriend Laura (emjrir :heart:).</summary></entry></feed>
