@@ -14,7 +14,7 @@ social:
     links:
         - https://10c8.github.com/
         - https://github.com/10c8/
-        - https://twitter.com/10c8_
+        - https://soundcloud.com/loc8_me
 
 # Markdown and syntax-highlighting
 markdown:         kramdown
@@ -32,10 +32,10 @@ feed:
     path:         feed.xml
 
 # Paginator
-paginate:         3
+paginate:         5
 
 # Gems
-gems:
+plugins:
     - jekyll-feed
     - jemoji
 #   - algoliasearch-jekyll

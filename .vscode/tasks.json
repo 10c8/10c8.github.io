@@ -7,9 +7,6 @@
             "taskName": "Publish",
             "type": "shell",
             "command": "./scripts/publish.sh",
-            "windows": {
-                "command": ".\\scripts\\publish.cmd"
-            },
             "group": {
                 "kind": "build",
                 "isDefault": true
@@ -23,9 +20,6 @@
             "taskName": "Preview",
             "type": "shell",
             "command": "./scripts/preview.sh",
-            "windows": {
-                "command": ".\\scripts\\preview.cmd"
-            },
             "group": {
                 "kind": "test",
                 "isDefault": true
@@ -40,9 +34,6 @@
             "type": "shell",
             "command": "./scripts/mkpost.sh",
             "isBackground": true,
-            "windows": {
-                "command": ".\\scripts\\mkpost.cmd"
-            },
             "group": "none",
             "presentation": {
                 "reveal": "always",
@@ -55,9 +46,6 @@
             "type": "shell",
             "command": "./scripts/mkdraft.sh",
             "isBackground": true,
-            "windows": {
-                "command": ".\\scripts\\mkdraft.cmd"
-            },
             "group": "none",
             "presentation": {
                 "reveal": "always",

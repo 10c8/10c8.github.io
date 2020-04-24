@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-04-24T00:22:18-03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">10c8@blog</title><subtitle>Tales of code and insomnia.</subtitle><author><name>10c8</name></author><entry><title type="html">whois 10c8</title><link href="http://localhost:4000/2017/08/29/whois-10c8/" rel="alternate" type="text/html" title="whois 10c8" /><published>2017-08-29T00:00:00-03:00</published><updated>2017-08-29T00:00:00-03:00</updated><id>http://localhost:4000/2017/08/29/whois-10c8</id><content type="html" xml:base="http://localhost:4000/2017/08/29/whois-10c8/">I’m William Fernandes, a hobbyist programmer, living in the hot East Coast of Brazil. I’m _enough to drink_ years old,
+though I much prefer a good coffee over booze. I love music, soft/hardware engineering, emulators, making useless
+projects and my girlfriend Laura (_emjrir_ :heart:).
+
+Speaking of music, I sometimes dabble on making my own. You can check my stuff at my [SoundCloud][1] page.
+
+This site is about my thoughts, projects and things that I find interesting in general. All in plain English
+(hopefully).
+
+You can check my stuff here and at my [Github][2].
+
+Feel free to get in touch with me at `dev10c8 [at] gmail [dot] com`
+
+[1]:	https://soundcloud.com/loc8_me
+[2]:	https://github.com/10c8</content><author><name>10c8</name></author><category term="uncategorized" /><summary type="html">I’m William Fernandes, a hobbyist programmer, living in the hot East Coast of Brazil. I’m enough to drink years old, though I much prefer a good coffee over booze. I love music, soft/hardware engineering, emulators, making useless projects and my girlfriend Laura (emjrir :heart:).</summary></entry></feed>
